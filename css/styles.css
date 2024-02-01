@@ -641,6 +641,23 @@ progress {
   margin-left: auto;
 }
 
+.contact-details {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+@media (max-width: 375px) {
+  .contact-details{
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 440px) {
+  .contact-details{
+    font-size: 1.1rem !important;
+  }
+}
+
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
