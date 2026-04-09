@@ -33,17 +33,10 @@ body.dark-theme .navbar {
     border-bottom: 1px solid var(--dark-border);
 }
 
-body.dark-theme .navbar-brand span {
-    color: var(--accent-green) !important;
-    font-family: 'Fira Code', monospace !important;
-    -webkit-text-fill-color: var(--accent-green) !important;
-    background: none !important;
-}
-
-body.dark-theme .navbar-brand span::before {
-    content: '$ ';
-    color: var(--dark-text-muted);
-    -webkit-text-fill-color: var(--dark-text-muted);
+body.dark-theme .navbar-logo {
+    height: 36px;
+    width: auto;
+    border-radius: 4px;
 }
 
 body.dark-theme .nav-link {
