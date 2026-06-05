@@ -41,9 +41,57 @@
                 <div class="container px-5 mb-5">
                     <div class="text-center mb-5">
                         <h1 class="display-5 fw-bolder mb-0"><span class="page-title-gradient">Projects</span></h1>
-                        <p class="text-muted-dark mt-3">Here are some of the projects I've worked on. More projects coming soon.</p>
+                        <p class="text-muted-dark mt-3">Here are some of the projects I've worked on. More recent projects will be added soon.</p>
                     </div>
                     <div class="row gx-5 justify-content-center">
+                        <!-- Warhead Card -->
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <div class="card dark-card border-0 rounded-4 mb-4 project-card" data-bs-toggle="modal" data-bs-target="#warheadModal" role="button">
+                                <div class="row g-0">
+                                  <div class="col-md-4">
+                                    <img class="img-fluid rounded-4" src="/assets/projects/warhead/warhead-thumbnail.png" alt="..." />
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title text-light-emphasis">Warhead</h5>
+                                      <p class="card-text card-text-dark">A website builder platform with Adobe Creative Cloud integration, letting you go from mockup to the web faster.</p>
+                                      <p class="card-text"><small class="tech-stack-label">Tech Stack: PHP, Zend Framework, MySQL</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Warhead Modal -->
+                        <div class="modal fade" id="warheadModal" tabindex="-1" aria-labelledby="warhead" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered modal-xl">
+                                <div class="modal-content dark-modal">
+                                    <div class="modal-header" style="border: none !important;">
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div id="warheadIndicators" class="carousel slide" data-bs-ride="true">
+                                            <div class="carousel-indicators">
+                                              <button type="button" data-bs-target="#warheadIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                <img src="assets/projects/warhead/warhead-landing.png" class="d-block w-100" alt="...">
+                                              </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#warheadIndicators" data-bs-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#warheadIndicators" data-bs-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="visually-hidden">Next</span>
+                                            </button>
+                                          </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Warhead -->
                         <!-- MWI Card -->
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
                             <div class="card dark-card border-0 rounded-4 mb-4 project-card" data-bs-toggle="modal" data-bs-target="#mwiModal" role="button">
